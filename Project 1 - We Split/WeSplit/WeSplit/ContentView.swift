@@ -55,18 +55,18 @@ struct ContentView: View {
                 } header: {
                     Text("How much tip do you want to leave?")
                 }
-//                Section {
-//                    Picker("Tip percentage", selection: $tipPercentage) {
-//                        ForEach(0 ..< 51) {
-//                            if $0 % 5 == 0{
-//                                Text("\($0)%")
-//                            }
-//                        }
-//                    }
-//                    .pickerStyle(.navigationLink)
-//                } header: {
-//                    Text("How much tip do you want to leave?")
-//                }
+                Section {
+                    Picker("Tip percentage", selection: $tipPercentage) {
+                        ForEach(0 ..< 51) {
+                            if $0 % 5 == 0{
+                                Text("\($0)%")
+                            }
+                        }
+                    }
+                    
+                } header: {
+                    Text("How much tip do you want to leave?")
+                }
                 
                 
                 Text("Result").foregroundColor(.red)
