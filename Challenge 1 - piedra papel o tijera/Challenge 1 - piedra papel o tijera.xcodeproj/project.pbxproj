@@ -7,28 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A0D38B42A43A1EA00FB3E10 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D38B32A43A1EA00FB3E10 /* GuessTheFlagApp.swift */; };
-		0A0D38B62A43A1EB00FB3E10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D38B52A43A1EB00FB3E10 /* ContentView.swift */; };
-		0A0D38B82A43A1EF00FB3E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0D38B72A43A1EF00FB3E10 /* Assets.xcassets */; };
-		0A0D38BB2A43A1EF00FB3E10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0D38BA2A43A1EF00FB3E10 /* Preview Assets.xcassets */; };
-		0A0D38C22A43AF2100FB3E10 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D38C12A43AF2100FB3E10 /* ContentView2.swift */; };
-		0A9853DD2A4B4FDD00DA77E4 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9853DC2A4B4FDD00DA77E4 /* QRView.swift */; };
-		0A9853FB2A525EEC00DA77E4 /* PruebaDeImagen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9853FA2A525EEC00DA77E4 /* PruebaDeImagen.swift */; };
+		0AF1555B2AA26DCE00912CE1 /* Challenge_1___piedra_papel_o_tijeraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1555A2AA26DCE00912CE1 /* Challenge_1___piedra_papel_o_tijeraApp.swift */; };
+		0AF1555D2AA26DCE00912CE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1555C2AA26DCE00912CE1 /* ContentView.swift */; };
+		0AF1555F2AA26DD100912CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1555E2AA26DD100912CE1 /* Assets.xcassets */; };
+		0AF155622AA26DD100912CE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF155612AA26DD100912CE1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A0D38B02A43A1EA00FB3E10 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A0D38B32A43A1EA00FB3E10 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
-		0A0D38B52A43A1EB00FB3E10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0A0D38B72A43A1EF00FB3E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A0D38BA2A43A1EF00FB3E10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0A0D38C12A43AF2100FB3E10 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
-		0A9853DC2A4B4FDD00DA77E4 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
-		0A9853FA2A525EEC00DA77E4 /* PruebaDeImagen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaDeImagen.swift; sourceTree = "<group>"; };
+		0AF155572AA26DCE00912CE1 /* Challenge 1 - piedra papel o tijera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge 1 - piedra papel o tijera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF1555A2AA26DCE00912CE1 /* Challenge_1___piedra_papel_o_tijeraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_1___piedra_papel_o_tijeraApp.swift"; sourceTree = "<group>"; };
+		0AF1555C2AA26DCE00912CE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AF1555E2AA26DD100912CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AF155612AA26DD100912CE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A0D38AD2A43A1EA00FB3E10 /* Frameworks */ = {
+		0AF155542AA26DCE00912CE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A0D38A72A43A1EA00FB3E10 = {
+		0AF1554E2AA26DCE00912CE1 = {
 			isa = PBXGroup;
 			children = (
-				0A0D38B22A43A1EA00FB3E10 /* GuessTheFlag */,
-				0A0D38B12A43A1EA00FB3E10 /* Products */,
+				0AF155592AA26DCE00912CE1 /* Challenge 1 - piedra papel o tijera */,
+				0AF155582AA26DCE00912CE1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0A0D38B12A43A1EA00FB3E10 /* Products */ = {
+		0AF155582AA26DCE00912CE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A0D38B02A43A1EA00FB3E10 /* GuessTheFlag.app */,
+				0AF155572AA26DCE00912CE1 /* Challenge 1 - piedra papel o tijera.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A0D38B22A43A1EA00FB3E10 /* GuessTheFlag */ = {
+		0AF155592AA26DCE00912CE1 /* Challenge 1 - piedra papel o tijera */ = {
 			isa = PBXGroup;
 			children = (
-				0A0D38B32A43A1EA00FB3E10 /* GuessTheFlagApp.swift */,
-				0A0D38B52A43A1EB00FB3E10 /* ContentView.swift */,
-				0A0D38C12A43AF2100FB3E10 /* ContentView2.swift */,
-				0A0D38B72A43A1EF00FB3E10 /* Assets.xcassets */,
-				0A0D38B92A43A1EF00FB3E10 /* Preview Content */,
-				0A9853DC2A4B4FDD00DA77E4 /* QRView.swift */,
-				0A9853FA2A525EEC00DA77E4 /* PruebaDeImagen.swift */,
+				0AF1555A2AA26DCE00912CE1 /* Challenge_1___piedra_papel_o_tijeraApp.swift */,
+				0AF1555C2AA26DCE00912CE1 /* ContentView.swift */,
+				0AF1555E2AA26DD100912CE1 /* Assets.xcassets */,
+				0AF155602AA26DD100912CE1 /* Preview Content */,
 			);
-			path = GuessTheFlag;
+			path = "Challenge 1 - piedra papel o tijera";
 			sourceTree = "<group>";
 		};
-		0A0D38B92A43A1EF00FB3E10 /* Preview Content */ = {
+		0AF155602AA26DD100912CE1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0A0D38BA2A43A1EF00FB3E10 /* Preview Assets.xcassets */,
+				0AF155612AA26DD100912CE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A0D38AF2A43A1EA00FB3E10 /* GuessTheFlag */ = {
+		0AF155562AA26DCE00912CE1 /* Challenge 1 - piedra papel o tijera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A0D38BE2A43A1EF00FB3E10 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
+			buildConfigurationList = 0AF155652AA26DD100912CE1 /* Build configuration list for PBXNativeTarget "Challenge 1 - piedra papel o tijera" */;
 			buildPhases = (
-				0A0D38AC2A43A1EA00FB3E10 /* Sources */,
-				0A0D38AD2A43A1EA00FB3E10 /* Frameworks */,
-				0A0D38AE2A43A1EA00FB3E10 /* Resources */,
+				0AF155532AA26DCE00912CE1 /* Sources */,
+				0AF155542AA26DCE00912CE1 /* Frameworks */,
+				0AF155552AA26DCE00912CE1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GuessTheFlag;
-			productName = GuessTheFlag;
-			productReference = 0A0D38B02A43A1EA00FB3E10 /* GuessTheFlag.app */;
+			name = "Challenge 1 - piedra papel o tijera";
+			productName = "Challenge 1 - piedra papel o tijera";
+			productReference = 0AF155572AA26DCE00912CE1 /* Challenge 1 - piedra papel o tijera.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0A0D38A82A43A1EA00FB3E10 /* Project object */ = {
+		0AF1554F2AA26DCE00912CE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					0A0D38AF2A43A1EA00FB3E10 = {
-						CreatedOnToolsVersion = 14.2;
+					0AF155562AA26DCE00912CE1 = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 0A0D38AB2A43A1EA00FB3E10 /* Build configuration list for PBXProject "GuessTheFlag" */;
+			buildConfigurationList = 0AF155522AA26DCE00912CE1 /* Build configuration list for PBXProject "Challenge 1 - piedra papel o tijera" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 0A0D38A72A43A1EA00FB3E10;
-			productRefGroup = 0A0D38B12A43A1EA00FB3E10 /* Products */;
+			mainGroup = 0AF1554E2AA26DCE00912CE1;
+			productRefGroup = 0AF155582AA26DCE00912CE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A0D38AF2A43A1EA00FB3E10 /* GuessTheFlag */,
+				0AF155562AA26DCE00912CE1 /* Challenge 1 - piedra papel o tijera */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A0D38AE2A43A1EA00FB3E10 /* Resources */ = {
+		0AF155552AA26DCE00912CE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0D38BB2A43A1EF00FB3E10 /* Preview Assets.xcassets in Resources */,
-				0A0D38B82A43A1EF00FB3E10 /* Assets.xcassets in Resources */,
+				0AF155622AA26DD100912CE1 /* Preview Assets.xcassets in Resources */,
+				0AF1555F2AA26DD100912CE1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A0D38AC2A43A1EA00FB3E10 /* Sources */ = {
+		0AF155532AA26DCE00912CE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0D38C22A43AF2100FB3E10 /* ContentView2.swift in Sources */,
-				0A9853DD2A4B4FDD00DA77E4 /* QRView.swift in Sources */,
-				0A9853FB2A525EEC00DA77E4 /* PruebaDeImagen.swift in Sources */,
-				0A0D38B62A43A1EB00FB3E10 /* ContentView.swift in Sources */,
-				0A0D38B42A43A1EA00FB3E10 /* GuessTheFlagApp.swift in Sources */,
+				0AF1555D2AA26DCE00912CE1 /* ContentView.swift in Sources */,
+				0AF1555B2AA26DCE00912CE1 /* Challenge_1___piedra_papel_o_tijeraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0A0D38BC2A43A1EF00FB3E10 /* Debug */ = {
+		0AF155632AA26DD100912CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -217,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		0A0D38BD2A43A1EF00FB3E10 /* Release */ = {
+		0AF155642AA26DD100912CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -271,14 +259,14 @@
 			};
 			name = Release;
 		};
-		0A0D38BF2A43A1EF00FB3E10 /* Debug */ = {
+		0AF155662AA26DD100912CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Challenge 1 - piedra papel o tijera/Preview Content\"";
 				DEVELOPMENT_TEAM = KZTT35S889;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -287,13 +275,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = matias.ezequiel.palmieri.GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = "matias.ezequiel.palmieri.Challenge-1---piedra-papel-o-tijera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		0A0D38C02A43A1EF00FB3E10 /* Release */ = {
+		0AF155672AA26DD100912CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Challenge 1 - piedra papel o tijera/Preview Content\"";
 				DEVELOPMENT_TEAM = KZTT35S889;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -317,13 +304,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = matias.ezequiel.palmieri.GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = "matias.ezequiel.palmieri.Challenge-1---piedra-papel-o-tijera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A0D38AB2A43A1EA00FB3E10 /* Build configuration list for PBXProject "GuessTheFlag" */ = {
+		0AF155522AA26DCE00912CE1 /* Build configuration list for PBXProject "Challenge 1 - piedra papel o tijera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A0D38BC2A43A1EF00FB3E10 /* Debug */,
-				0A0D38BD2A43A1EF00FB3E10 /* Release */,
+				0AF155632AA26DD100912CE1 /* Debug */,
+				0AF155642AA26DD100912CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A0D38BE2A43A1EF00FB3E10 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
+		0AF155652AA26DD100912CE1 /* Build configuration list for PBXNativeTarget "Challenge 1 - piedra papel o tijera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A0D38BF2A43A1EF00FB3E10 /* Debug */,
-				0A0D38C02A43A1EF00FB3E10 /* Release */,
+				0AF155662AA26DD100912CE1 /* Debug */,
+				0AF155672AA26DD100912CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0A0D38A82A43A1EA00FB3E10 /* Project object */;
+	rootObject = 0AF1554F2AA26DCE00912CE1 /* Project object */;
 }

@@ -55,14 +55,14 @@ struct ContentView2: View {
             
             
             //        Gradients
-//                    LinearGradient(gradient: Gradient(colors: [.red, .black]), startPoint: .top, endPoint: .bottom)
-//
-//                    LinearGradient(gradient: Gradient(stops: [
-//                            Gradient.Stop(color: .white, location: 0.35),
-//                            Gradient.Stop(color: .black, location: 0.85),
-//                        ]), startPoint: .top, endPoint: .bottom)
+            LinearGradient(gradient: Gradient(colors: [.red, .black, .green]), startPoint: .top, endPoint: .bottom)
+
+                    LinearGradient(gradient: Gradient(stops: [
+                            Gradient.Stop(color: .white, location: 0.35),
+                            Gradient.Stop(color: .black, location: 0.85),
+                        ]), startPoint: .top, endPoint: .bottom)
             
-                    RadialGradient(gradient: Gradient(colors: [.blue, .black]), center: .center, startRadius: 80, endRadius: 200)
+                    RadialGradient(gradient: Gradient(colors: [.blue, .black]), center: .center, startRadius: 80, endRadius: 81)
             
                     AngularGradient(gradient: Gradient(colors: [.red, .yellow, .green, .blue, .purple, .red]), center: .topTrailing)
             

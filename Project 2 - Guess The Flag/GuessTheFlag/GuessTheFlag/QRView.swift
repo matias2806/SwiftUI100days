@@ -13,43 +13,77 @@ struct QRView: View {
         print("Go to the home")
     }
     var body: some View {
-        ZStack{
-            RadialGradient(stops: [
-                .init(color: Color(red: 0.20784313725, green: 0.39215686274, blue: 0.99215686274)
-, location: 0.99),
-                .init(color: Color(red: 0.76, green: 0.15, blue: 0.26), location: 0.3),
-            ], center: .top, startRadius: 200, endRadius: 400)
-            .ignoresSafeArea()
-//            Color.white.ignoresSafeArea()
+        NavigationView {
             VStack{
-                Spacer()
-                VStack{
-                    Image("qr")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 250, height: 250)
-                        
-                        
-                }
-                .frame(width: 300, height: 300)
-                .background(.regularMaterial)
-                .clipShape(RoundedRectangle(cornerRadius: 20))
-                VStack{
-                    Text("Mostrale este QR a tu cliente para que lo escanee")
-                        .font(.title)
-                        .multilineTextAlignment(.center)
-                        .padding(30)
-                    Text("Recordá verificar que ingrese el monto correcto")
-                }
-                Spacer()
-                VStack{
-                    Button("Volver al inicio", action: goToHome)
-                }
-                
+                Text("HOLA MUNDO")
+                Text("HOLA MUNDO")
+                Text("HOLA MUNDO")
             }
+            .navigationBarItems(
+                leading:
+                    Button(action: {
+                        // Acción del botón izquierdo
+                    }) {
+                        Image(systemName: "arrow.left")
+                    }
+                    .buttonStyle(PlainButtonStyle())
+                    .foregroundColor(.green),
+                trailing:
+                    Button(action: {
+                        // Acción del botón derecho
+                    }) {
+                        Image(systemName: "gear")
+                    }
+                    .buttonStyle(PlainButtonStyle())
+                    .foregroundColor(.red)
+            )
         }
     }
 }
+
+struct HeaderCurve: View {
+    let offsetOval: CGFloat = 0.6
+    
+    var body: some View {
+        GeometryReader { geometry in
+            ZStack {
+                // Fondo del header
+                Color.blue
+                
+                // Curva superior
+                Path { path in
+                    path.move(to: CGPoint(x: 0, y: geometry.size.height))
+                    path.addLine(to: CGPoint(x: geometry.size.width , y: geometry.size.height ))
+                    path.addLine(to: CGPoint(x: geometry.size.width, y: geometry.size.height * (1 - offsetOval)))
+                    path.addQuadCurve(to: CGPoint(x: 0, y: geometry.size.height * (1 - offsetOval)), control: CGPoint(x: geometry.size.width / 2, y: geometry.size.height + 100))
+                }
+                .fill(Color.white)
+                .edgesIgnoringSafeArea(.top)
+            }
+        }
+    }
+    
+    private func drawOval() {
+//        let screenWidth: CGFloat = frame.width
+//        let offset: CGFloat = screenWidth * CGFloat(offsetOval)
+//        let rectBounds: CGRect = CGRect(x: bounds.origin.x, y: bounds.origin.y, width: screenWidth, height: bounds.size.height / 2)
+//        let rectPath: UIBezierPath = UIBezierPath(rect: rectBounds)
+//        let ovalBounds: CGRect = CGRect(x: bounds.origin.x - offset / 2,
+//                                        y: bounds.origin.y, width: screenWidth + offset,
+//                                        height: bounds.size.height)
+//        let ovalPath: UIBezierPath = UIBezierPath(ovalIn: ovalBounds)
+//        rectPath.append(ovalPath)
+//        let maskLayer: CAShapeLayer = CAShapeLayer()
+//        maskLayer.frame = bounds
+//        maskLayer.path = rectPath.cgPath
+//
+//        layer.mask = maskLayer
+    }
+}
+
+
+
+
 
 struct QRView_Previews: PreviewProvider {
     static var previews: some View {
