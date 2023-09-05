@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C007E9AC-55B3-4F50-964F-CE7D0A3728A4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1F6DA6F-A5B6-46BD-AE98-28BCF55581D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenge 1 - piedra papel o tijera/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "play()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A1F6DA6F-A5B6-46BD-AE98-28BCF55581D2 - 5b5c23a7b5cbbba9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Challenge_1___piedra_papel_o_tijera.ContentView.body.getter : some"
+                  moduleName = "Challenge 1 - piedra papel o tijera"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matiaspalmieri/Documents/proyectos/swiftUI/SwiftUI100days/Challenge%201%20-%20piedra%20papel%20o%20tijera/Challenge%201%20-%20piedra%20papel%20o%20tijera/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "537">
+               </Location>
+               <Location
+                  uuid = "A1F6DA6F-A5B6-46BD-AE98-28BCF55581D2 - 98635aad744f0944"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, SwiftUI.Spacer)&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ShapeStyle&gt;(_: &#x3c4;_1_0, ignoresSafeAreaEdges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0)&gt; in Challenge_1___piedra_papel_o_tijera.ContentView.body.getter : some"
+                  moduleName = "Challenge 1 - piedra papel o tijera"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matiaspalmieri/Documents/proyectos/swiftUI/SwiftUI100days/Challenge%201%20-%20piedra%20papel%20o%20tijera/Challenge%201%20-%20piedra%20papel%20o%20tijera/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "648">
+               </Location>
+               <Location
+                  uuid = "A1F6DA6F-A5B6-46BD-AE98-28BCF55581D2 - 3c75db8f8def616d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Challenge_1___piedra_papel_o_tijera.ContentView.play() -&gt; ()"
+                  moduleName = "Challenge 1 - piedra papel o tijera"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matiaspalmieri/Documents/proyectos/swiftUI/SwiftUI100days/Challenge%201%20-%20piedra%20papel%20o%20tijera/Challenge%201%20-%20piedra%20papel%20o%20tijera/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "381">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
